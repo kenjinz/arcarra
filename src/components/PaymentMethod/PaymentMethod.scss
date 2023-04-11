@@ -1,0 +1,40 @@
+.paymentTitle {
+  font-style: normal;
+  font-size: 50px;
+  line-height: 68px;
+  /* identical to box height */
+
+  letter-spacing: -0.3px;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+
+  color: #262626;
+}
+.paymentMethod {
+  margin-top: 50px;
+  button {
+    width: 315px;
+    height: 100px;
+    background: #ffffff;
+
+    border-radius: 12px;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 41px;
+
+    text-align: center;
+    letter-spacing: -0.3px;
+    text-transform: none;
+    color: #262626;
+
+    .cash {
+    }
+    .credit {
+      margin-right: 20px;
+    }
+    .eWallet {
+      margin-top: 20px;
+    }
+  }
+}
